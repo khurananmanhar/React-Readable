@@ -1,0 +1,55 @@
+.images{
+    width: 100%;
+}
+.booksContainer{
+    width: 17%;
+    margin: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+}
+.booksContainer:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+.prices{
+    display: flex;
+    margin-top: 8px;
+}
+.prices .new{
+    color: red;
+    margin-right:10px ;
+}
+.prices .old{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.6);
+}
+.author{
+    color: rgba(0, 0, 0, 0.7);
+}
+.stars{
+    font-size: 11px;
+    margin-top: 2px;
+}
+.info{
+    margin-top: 10px;
+}
+@media screen and (max-width: 1220px){
+    .booksContainer{
+        width: 16%;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .booksContainer{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 476px){
+    .booksContainer{
+        width: 70%;
+        margin: 10px auto;
+    }
+}

@@ -1,0 +1,26 @@
+.icons{
+    width: 20px;
+    margin: 5px;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 90%;
+    align-items: center;
+}
+.headerContainer h1{
+    font-size: 45px;
+    text-align: center;
+}
+@media screen and (max-width: 1024px){
+    .headerContainer h1{
+        font-size: 30px;
+    }
+    .icons{
+        margin: 2px;
+    }
+}

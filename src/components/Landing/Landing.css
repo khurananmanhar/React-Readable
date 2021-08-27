@@ -1,0 +1,39 @@
+.landingContainer{
+    background: url("https://images.unsplash.com/photo-1514593214839-ce1849100055?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 17.5%;
+}
+.landingContainer h3{
+    color: white;
+    font-size: 40px;
+}
+.landingContainer h2{
+    color: teal;
+    font-size: 50px;
+}
+.landingContainer p{
+    color: rgba(255, 255, 255, 0.8);
+}
+@media screen and (max-width: 1024px){
+    .landingContainer h3{
+        font-size: 25px;
+    }
+    .landingContainer h2{
+        font-size: 35px;
+    }
+}
+.landingContainer button{
+    border: none;
+    outline: none;
+    padding: 1rem 3rem;
+    background: teal;
+    color: white;
+    margin-top: 15px;
+}
+.landingContainer button:hover{
+    cursor: pointer;
+    background-color: rgba(0,128,128,.8);
+}

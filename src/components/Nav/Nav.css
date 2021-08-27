@@ -1,0 +1,24 @@
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color: teal;
+    padding: 25px;
+}
+.list li{
+margin: 10px;
+color: white;
+}
+.list li:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, .6);
+}
+.list .current{
+    color: rgba(255, 255, 255, .6);
+}
+@media screen and (max-width: 1024px){
+    .list li{
+        font-size: 12px;
+    }
+}
