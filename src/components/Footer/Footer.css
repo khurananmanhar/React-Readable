@@ -1,0 +1,25 @@
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+     color: white;
+     background-color: teal;
+     padding: 5%;
+}
+.section h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.section h3{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.section p:hover{
+    cursor: pointer;
+}
+@media screen and (mac-width:1024){
+    .footerContainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

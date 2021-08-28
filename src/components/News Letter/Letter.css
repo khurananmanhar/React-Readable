@@ -1,0 +1,32 @@
+.LetterContainer{
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.containerWords{
+    width: 40%;
+}
+.containerWords h2{
+    font-size: 30px;
+    color: teal;
+    margin-bottom: 15px;
+}
+.LetterContainer input{
+    width: 30rem;
+    height: 3rem;
+}
+.Containerform{
+    display: flex;
+}
+.Containerform button{
+    width: 10rem;
+    height: 3rem;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+.Containerform button:hover{
+background-color: rgba(0,128,128,.8);
+cursor: pointer;
+}

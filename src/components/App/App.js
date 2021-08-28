@@ -2,7 +2,9 @@ import './App.css';
 import Header from '../Header/Header';
 import Navbar from '../Nav/Nav';
 import Landing from '../Landing/Landing';
-import Books from '../../Books/Books';
+import Books from '../Books/Books';
+import Letter from '../News Letter/Letter';
+import Footer from '../Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <div className="bookContainer">
       <Books/>
       </div>
+      <Letter/>
+      <Footer/>
     </div>
   );
 }
