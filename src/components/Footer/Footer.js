@@ -4,7 +4,7 @@ class Footer extends React.Component {
     render() {
         return (
             <div className="footerContainer">
-                <div className="section">
+                <div className="section one">
                     <h2>Readable</h2>
                     <p>1203 Town Center
                         Drive FL 33458 USA</p>

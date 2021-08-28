@@ -13,7 +13,7 @@
     margin-bottom: 15px;
 }
 .LetterContainer input{
-    width: 30rem;
+    width: 20rem;
     height: 3rem;
 }
 .Containerform{
@@ -29,4 +29,21 @@
 .Containerform button:hover{
 background-color: rgba(0,128,128,.8);
 cursor: pointer;
+}
+@media screen and (max-width: 1024px){
+.LetterContainer{
+    flex-direction: column;
+}
+.LetterContainer input{
+    margin-top: 15px;
+    width: 10rem;
+    height: 3rem;
+}
+.Containerform button{
+    width: 5rem;
+    margin-top: 15px;
+}
+.containerWords{
+    width: 60%;
+}
 }

@@ -17,9 +17,15 @@
 .section p:hover{
     cursor: pointer;
 }
-@media screen and (mac-width:1024){
+.section{
+    margin: 10px;
+}
+.one{
+    width: 60%;
+}
+@media screen and (max-width: 1024px){
     .footerContainer{
-        flex-direction: column;
-        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-start;
     }
 }
